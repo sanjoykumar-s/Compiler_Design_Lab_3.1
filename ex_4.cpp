@@ -2,7 +2,7 @@
 using namespace std;
 
 bool isIntegerVar(string &s) {
-    if(s.size()<2)return false;
+    if(s.size()<1)return false;
     if(!((s[0]>='i' and s[0]<='n') or (s[0]>='I' and s[0]<='N')))return false;
     for(int i=1;i<s.size();i++) {
         bool ok=false;
@@ -38,8 +38,8 @@ int main() {
     string s;
     cin >> s;
     if(isIntegerVar(s))cout << "Input is a Integer Variable.\n";
-    else if(isShortInreger(s))cout << "Input is a Short Integer.\n";
-    else if(isLongInteger(s))cout << "Input is a Long Integer.\n";
+    else if(isShortInreger(s))cout << "Input is a Short Integer Number.\n";
+    else if(isLongInteger(s))cout << "Input is a Long Integer Number.\n";
     else cout << "Undefined Input.\n";
     return 0;
 }
