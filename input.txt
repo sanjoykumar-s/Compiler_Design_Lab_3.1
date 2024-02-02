@@ -1,1 +1,14 @@
-0111110
+234
+i4597
+___
+double
+int
+char
+do
+while
+for
+final
+2.004
++++
++-
+*=
