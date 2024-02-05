@@ -4,3 +4,26 @@ E=(E)
 E=id
 END
 id+id*id
+
+
+
+if(a) {
+    if(c-d) {
+        a+c
+    }
+    else a*c
+}else a+b
+
+
+acd-ac+ac*? ab+?
+
+
+if(a) {
+    if(c-d) {
+        a+c
+    }else if(b) {
+        q
+    }else a+b
+}
+
+acd-ac+bqab+??
