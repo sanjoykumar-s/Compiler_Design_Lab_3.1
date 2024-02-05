@@ -1,1 +1,6 @@
-Computer Science & Engineering, 3rd year, 1st semester, Compiler Design, Theory
+E=E+E
+E=E*E
+E=(E)
+E=id
+END
+id+id*id
